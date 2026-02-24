@@ -3,9 +3,9 @@ class Answer:
         self.number = number
 
     def to_binary(self):
-        if self.number < 0:
+        if self.number < 0: # Check for negative numbers
             raise ValueError("Only non-negative integers are supported.")
-        return f"{self.number:b}"
+        return f"{self.number:b}" # Convert the number to binary using format specifier 'b'
     
 
 if __name__ == "__main__":
