@@ -1,6 +1,8 @@
 def is_prime(x):
     """
-    Check if a number x is prime. A prime number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers.
+    Check if a number x is prime. 
+    A prime number is a natural number greater than 1 
+    that cannot be formed by multiplying two smaller natural numbers.
     """
     if x < 2:
         return False
