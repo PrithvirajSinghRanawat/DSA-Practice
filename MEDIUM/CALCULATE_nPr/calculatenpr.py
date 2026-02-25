@@ -11,9 +11,6 @@ def factorial(num):
 def calculate_nPr(n, r):
     """
     Calculate the value of nPr, when n and r are given integers.
-    Args:
-        n (int): The total number of items.
-        r (int): The number of items to choose.
     """
     return factorial(n) // factorial(n-r) 
     

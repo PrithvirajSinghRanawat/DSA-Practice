@@ -8,11 +8,11 @@ Examples:
 
 ```
 Input: n = 5
-           r = 2
+       r = 2
 Output: 20
 Explanation: 5P2 = 5! / (5 - 2)!  = 20
 
 Input: n = 6
-           r = 3
+       r = 3
 Output: 120
 Explanation: 6P3 = 6! / (6 - 3)!  = 120
