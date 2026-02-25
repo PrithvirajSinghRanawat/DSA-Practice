@@ -20,5 +20,16 @@ def prime_factor(num):
         factors.append(num)
     return factors
 
-num = int(input("Enter an integer: "))
-print(prime_factor(num))
+num = int(input("Enter a number: "))
+factors_list = prime_factor(num)
+print("Factors of", num, "are:", factors_list)
+
+# LARGEST PRIME FACTOR OF AN INTEGER.
+
+#     largest_prime_factor = max(factors) if factors else None
+#     return largest_prime_factor
+
+# if __name__ == "__main__":
+#     num = int(input("Enter a number: "))
+#     factors_list = prime_factor(num)
+#     print("Largest Prime Factor:", prime_factor(factors_list))
